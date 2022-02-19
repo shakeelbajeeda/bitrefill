@@ -1,0 +1,226 @@
+.pic-box {
+    width: 100%;
+    height: 450px;
+    background: hsl(216deg 20% 95%);
+}
+
+.h-icon-box {
+    height: 30px;
+    width: 30px;
+    background: white;
+    position: absolute;
+    top: 110px;
+    right: 52%;
+}
+
+.card {
+    width: 100%;
+    height: 170px;
+    border-radius: 5%;
+}
+
+.card:hover {
+    color: #fff;
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px
+}
+
+.rating-star {
+    color: #f8d448;
+}
+
+.amount-input {
+    width: 290px !important;
+    text-indent: 13px;
+}
+
+.img-box {
+    background: #d22e2d;
+    height: 200px;
+    width: 330px;
+    margin: auto;
+}
+
+.p-border {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+.form {
+    position: relative
+}
+
+.form .fa-search {
+    position: absolute;
+    top: 19px;
+    left: 20px;
+    color: #9ca3af
+}
+
+.dollar-sign {
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    color: #9ca3af
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.form-input {
+    margin-top: 9px;
+    background: #00000000;
+    text-indent: 33px;
+    border-radius: 50px !important;
+}
+
+.nav-links {
+    color: black !important;
+}
+
+.active,
+.nav-links:hover {
+    color: hsl(211deg 92% 62%) !important;
+}
+
+.footer-link-hover:hover {
+    border-bottom: 1px solid grey;
+}
+
+.card-link-hover:hover {
+    border-bottom: 1px solid grey;
+}
+
+.hover-black {
+    color: black;
+}
+
+.hover-black:hover {
+    background: #bdc3c9;
+    color: white !important;
+}
+
+.create-account {
+    color: hsl(211deg 92% 62%) !important;
+    background: hsl(211deg 100% 93%);
+}
+
+.create-account:hover {
+    background: #93c6f9;
+}
+
+.disply-flex {
+    height: 450px;
+    display: flex;
+}
+
+
+@media (max-width: 1024px) {
+    .amount-input {
+        width: 230px !important;
+        text-indent: 13px;
+    }
+
+    .disply-none {
+        display: none;
+    }
+
+    .form-input {
+        margin-top: 9px;
+        background: #00000000;
+        width: 290px !important;
+        text-indent: 20px;
+        border-radius: 50px !important;
+    }
+
+    .float {
+        float: right;
+    }
+}
+
+.heart-hover {
+    color: blue;
+    font-size: 50px;
+}
+
+.img-box {
+    background: #d22e2d;
+    height: 200px;
+    width: 330px;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .img-box {
+        background: #d22e2d;
+        height: 190px;
+        width: 290px;
+        margin: auto;
+    }
+
+    .img-widt {
+        width: 250px;
+    }
+
+    .disply-non {
+        display: none;
+    }
+
+    .form-input {
+        margin-top: 11px;
+        background: #00000000;
+        width: 290px !important;
+        text-indent: 33px;
+        border-radius: 50px !important;
+    }
+
+    .pic-box {
+        width: 100%;
+        height: 450px;
+        background: hsl(216deg 20% 95%);
+    }
+
+    .h-icon-box {
+        height: 30px;
+        width: 30px;
+        background: white;
+    }
+}
+
+@media (max-width: 480px) {
+    .img-widt {
+        width: 75%;
+    }
+
+    .img-box {
+        background: #d22e2d;
+        height: 130px;
+        width: 200px;
+        margin: auto;
+    }
+
+    .pic-box {
+        width: 100%;
+        height: 250px;
+        background: hsl(216deg 20% 95%);
+    }
+
+    .disply-flex {
+        height: 250px;
+        display: flex;
+    }
+
+    .h-icon-box {
+        height: 30px;
+        width: 30px;
+        background: white;
+        position: absolute;
+        top: 98px;
+        right: 7%;
+    }
+
+    .txt_center {
+        /*margin-right: 27px !important;*/
+
+    }
+}
